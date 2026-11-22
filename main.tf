@@ -9,3 +9,7 @@ resource "terraform_data" "example" {
 output "deployment_status" {
   value = terraform_data.example.output
 }
+
+output "deployment_message" {
+  value = "The deployment has been completed successfully."
+}
